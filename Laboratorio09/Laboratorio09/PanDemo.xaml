@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <AbsoluteLayout>
             <local:PanContainer>
-                <Image Source="shakira.jpg" WidthRequest="1024" HeightRequest="768" />
+                <Image Source="gokubase.jpg" WidthRequest="1024" HeightRequest="768" />
             </local:PanContainer>
         </AbsoluteLayout>
     </ContentPage.Content>
