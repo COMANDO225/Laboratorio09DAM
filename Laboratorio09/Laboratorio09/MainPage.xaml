@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio09.MainPage">
+
+    <StackLayout>
+        <Label
+            Text="Powered by Almeyda"
+            TextColor="SkyBlue"
+            FontSize="Title"
+            HorizontalTextAlignment="Center"
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand"
+        >
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnLabelTapped" />
+            </Label.GestureRecognizers>
+        </Label>
+        <Button
+            x:Name="hablapecausa1"
+            Text="Tap demo"
+            Clicked="OnButtonClicked"
+        />
+        <Button
+            x:Name="hablapecausa2"
+            Text="Pinch demo"
+            Clicked="OnButtonClicked"
+        />
+        <Button
+            x:Name="hablapecausa3"
+            Text="Pan demo"
+            Clicked="OnButtonClicked"
+        />
+        <Button
+            x:Name="hablapecausa4"
+            Text="Swipe demo"
+            Clicked="OnButtonClicked"
+        />
+    </StackLayout>
+
+</ContentPage>
